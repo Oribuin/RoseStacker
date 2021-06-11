@@ -1,10 +1,6 @@
 package dev.rosewood.rosestacker.nms.v1_14_R1.object;
 
 import dev.rosewood.rosestacker.nms.object.SpawnerTileWrapper;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 import net.minecraft.server.v1_14_R1.MinecraftKey;
 import net.minecraft.server.v1_14_R1.MobSpawnerAbstract;
 import net.minecraft.server.v1_14_R1.TileEntityMobSpawner;
@@ -14,6 +10,11 @@ import org.bukkit.block.CreatureSpawner;
 import org.bukkit.craftbukkit.v1_14_R1.block.CraftBlock;
 import org.bukkit.craftbukkit.v1_14_R1.util.CraftNamespacedKey;
 import org.bukkit.entity.EntityType;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class SpawnerTileWrapperImpl implements SpawnerTileWrapper {
 

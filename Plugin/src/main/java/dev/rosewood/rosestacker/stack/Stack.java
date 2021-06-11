@@ -2,11 +2,12 @@ package dev.rosewood.rosestacker.stack;
 
 import dev.rosewood.rosestacker.stack.settings.StackSettings;
 import dev.rosewood.rosestacker.utils.StackerUtils;
-import java.util.HashSet;
-import java.util.Set;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public abstract class Stack<T extends StackSettings> {
 

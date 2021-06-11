@@ -3,11 +3,7 @@ package dev.rosewood.rosestacker.nms;
 import dev.rosewood.rosestacker.nms.object.SpawnerTileWrapper;
 import org.bukkit.Location;
 import org.bukkit.block.CreatureSpawner;
-import org.bukkit.entity.Creeper;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Player;
+import org.bukkit.entity.*;
 import org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason;
 import org.bukkit.inventory.ItemStack;
 

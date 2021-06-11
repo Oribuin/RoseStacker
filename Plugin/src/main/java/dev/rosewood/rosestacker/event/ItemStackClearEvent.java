@@ -1,10 +1,11 @@
 package dev.rosewood.rosestacker.event;
 
 import dev.rosewood.rosestacker.stack.StackedItem;
-import java.util.List;
 import org.bukkit.World;
 import org.bukkit.event.HandlerList;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 /**
  * Called when stacked items are to be cleared

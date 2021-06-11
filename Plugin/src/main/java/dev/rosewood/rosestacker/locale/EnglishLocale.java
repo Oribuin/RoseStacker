@@ -4,6 +4,7 @@ import dev.rosewood.guiframework.framework.util.GuiUtil;
 import dev.rosewood.rosegarden.locale.Locale;
 import dev.rosewood.rosestacker.RoseStacker;
 import dev.rosewood.rosestacker.manager.ConversionManager;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;

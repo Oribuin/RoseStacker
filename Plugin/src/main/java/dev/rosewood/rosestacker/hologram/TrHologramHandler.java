@@ -1,12 +1,13 @@
 package dev.rosewood.rosestacker.hologram;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
 import me.arasple.mc.trhologram.api.TrHologramAPI;
 import me.arasple.mc.trhologram.module.display.Hologram;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 public class TrHologramHandler implements HologramHandler {
 

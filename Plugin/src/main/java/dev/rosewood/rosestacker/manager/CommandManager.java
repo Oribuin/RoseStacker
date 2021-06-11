@@ -1,10 +1,6 @@
 package dev.rosewood.rosestacker.manager;
 
-import co.aikar.commands.BukkitCommandCompletionContext;
-import co.aikar.commands.CommandCompletions;
-import co.aikar.commands.ConditionFailedException;
-import co.aikar.commands.MessageKeys;
-import co.aikar.commands.PaperCommandManager;
+import co.aikar.commands.*;
 import co.aikar.locales.MessageKey;
 import dev.rosewood.rosegarden.RosePlugin;
 import dev.rosewood.rosegarden.manager.Manager;
@@ -16,6 +12,9 @@ import dev.rosewood.rosestacker.stack.StackType;
 import dev.rosewood.rosestacker.stack.settings.BlockStackSettings;
 import dev.rosewood.rosestacker.stack.settings.EntityStackSettings;
 import dev.rosewood.rosestacker.stack.settings.SpawnerStackSettings;
+import org.bukkit.Material;
+import org.bukkit.entity.EntityType;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Locale;
@@ -24,8 +23,6 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-import org.bukkit.Material;
-import org.bukkit.entity.EntityType;
 
 public class CommandManager extends Manager {
 

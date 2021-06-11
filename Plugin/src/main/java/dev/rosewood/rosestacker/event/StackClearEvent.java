@@ -1,12 +1,13 @@
 package dev.rosewood.rosestacker.event;
 
 import dev.rosewood.rosestacker.stack.Stack;
-import java.util.List;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 /**
  * Base event for when the stack clearall is run by either a command or other means

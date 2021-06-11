@@ -2,13 +2,7 @@ package dev.rosewood.rosestacker.conversion;
 
 import dev.rosewood.rosegarden.RosePlugin;
 import dev.rosewood.rosestacker.RoseStacker;
-import dev.rosewood.rosestacker.conversion.handler.ConversionHandler;
-import dev.rosewood.rosestacker.conversion.handler.EntityConversionHandler;
-import dev.rosewood.rosestacker.conversion.handler.ItemConversionHandler;
-import dev.rosewood.rosestacker.conversion.handler.StackMobConversionHandler;
-import dev.rosewood.rosestacker.conversion.handler.UltimateStackerConversionHandler;
-import dev.rosewood.rosestacker.conversion.handler.WildStackerEntityConversionHandler;
-import dev.rosewood.rosestacker.conversion.handler.WildStackerItemConversionHandler;
+import dev.rosewood.rosestacker.conversion.handler.*;
 
 public enum ConverterType {
 

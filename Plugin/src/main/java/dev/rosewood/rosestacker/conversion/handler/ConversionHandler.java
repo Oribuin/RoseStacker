@@ -8,12 +8,13 @@ import dev.rosewood.rosestacker.nms.NMSAdapter;
 import dev.rosewood.rosestacker.nms.NMSHandler;
 import dev.rosewood.rosestacker.stack.Stack;
 import dev.rosewood.rosestacker.stack.StackType;
+import org.bukkit.Location;
+import org.bukkit.entity.EntityType;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-import org.bukkit.Location;
-import org.bukkit.entity.EntityType;
 
 /**
  * Handles converting data that we weren't able to without having specific locations

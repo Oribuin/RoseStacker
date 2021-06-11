@@ -13,33 +13,16 @@ import dev.rosewood.rosestacker.hook.RoseStackerPlaceholderExpansion;
 import dev.rosewood.rosestacker.hook.ShopGuiPlusHook;
 import dev.rosewood.rosestacker.hook.ViaVersionHook;
 import dev.rosewood.rosestacker.hook.WorldGuardHook;
-import dev.rosewood.rosestacker.listener.BeeListener;
-import dev.rosewood.rosestacker.listener.BlockListener;
-import dev.rosewood.rosestacker.listener.BlockShearListener;
-import dev.rosewood.rosestacker.listener.BreedingListener;
-import dev.rosewood.rosestacker.listener.ClearlagListener;
-import dev.rosewood.rosestacker.listener.EntityListener;
-import dev.rosewood.rosestacker.listener.InteractListener;
-import dev.rosewood.rosestacker.listener.ItemListener;
-import dev.rosewood.rosestacker.listener.RaidListener;
-import dev.rosewood.rosestacker.listener.StackToolListener;
-import dev.rosewood.rosestacker.listener.WorldListener;
-import dev.rosewood.rosestacker.manager.CommandManager;
-import dev.rosewood.rosestacker.manager.ConfigurationManager;
-import dev.rosewood.rosestacker.manager.ConversionManager;
-import dev.rosewood.rosestacker.manager.DataManager;
-import dev.rosewood.rosestacker.manager.EntityCacheManager;
-import dev.rosewood.rosestacker.manager.HologramManager;
-import dev.rosewood.rosestacker.manager.LocaleManager;
-import dev.rosewood.rosestacker.manager.SpawnerSpawnManager;
-import dev.rosewood.rosestacker.manager.StackManager;
-import dev.rosewood.rosestacker.manager.StackSettingManager;
+import dev.rosewood.rosestacker.listener.*;
+import dev.rosewood.rosestacker.manager.*;
 import dev.rosewood.rosestacker.nms.NMSAdapter;
 import dev.rosewood.rosestacker.utils.StackerUtils;
-import java.util.Arrays;
-import java.util.List;
+import net.minecraft.world.entity.ambient.EntityBat;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author Esophose
@@ -86,6 +69,11 @@ public class RoseStacker extends RosePlugin {
         pluginManager.registerEvents(new ItemListener(this), this);
         pluginManager.registerEvents(new StackToolListener(this), this);
         pluginManager.registerEvents(new BreedingListener(this), this);
+
+        // Axolotls, Goats are only in 1.17+
+        if (NMSUtil.getVersionNumber() >= 17)
+            // todo
+            System.out.println("ahhh coming soon");
 
         // Bees are only in 1.15+
         if (NMSUtil.getVersionNumber() >= 15)

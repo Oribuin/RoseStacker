@@ -1,9 +1,6 @@
 package dev.rosewood.rosestacker.stack;
 
 import dev.rosewood.rosestacker.manager.StackManager;
-import java.util.Collection;
-import java.util.Map;
-import java.util.UUID;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.entity.EntityType;
@@ -11,6 +8,10 @@ import org.bukkit.entity.Item;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason;
 import org.bukkit.inventory.ItemStack;
+
+import java.util.Collection;
+import java.util.Map;
+import java.util.UUID;
 
 /**
  * Common logic shared between {@link StackManager} and {@link StackingThread}

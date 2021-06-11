@@ -6,11 +6,12 @@ import com.gmail.filoghost.holographicdisplays.api.HologramsAPI;
 import com.gmail.filoghost.holographicdisplays.api.line.HologramLine;
 import com.gmail.filoghost.holographicdisplays.nms.interfaces.entity.NMSEntityBase;
 import dev.rosewood.rosestacker.RoseStacker;
+import org.bukkit.Location;
+import org.bukkit.entity.Entity;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
-import org.bukkit.Location;
-import org.bukkit.entity.Entity;
 
 public class HolographicDisplaysHologramHandler implements HologramHandler {
 

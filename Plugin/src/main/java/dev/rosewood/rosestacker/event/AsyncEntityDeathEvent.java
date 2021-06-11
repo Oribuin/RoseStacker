@@ -1,13 +1,14 @@
 package dev.rosewood.rosestacker.event;
 
-import java.lang.reflect.Field;
-import java.util.List;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.Event;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
+
+import java.lang.reflect.Field;
+import java.util.List;
 
 public class AsyncEntityDeathEvent extends EntityDeathEvent {
 

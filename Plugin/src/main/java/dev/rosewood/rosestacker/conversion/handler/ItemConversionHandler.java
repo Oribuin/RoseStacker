@@ -5,6 +5,7 @@ import dev.rosewood.rosestacker.conversion.ConversionData;
 import dev.rosewood.rosestacker.stack.Stack;
 import dev.rosewood.rosestacker.stack.StackType;
 import dev.rosewood.rosestacker.stack.StackedItem;
+
 import java.util.HashSet;
 import java.util.Set;
 

@@ -7,10 +7,11 @@ import dev.rosewood.rosestacker.manager.StackSettingManager;
 import dev.rosewood.rosestacker.stack.settings.spawner.ConditionTag;
 import dev.rosewood.rosestacker.stack.settings.spawner.ConditionTags;
 import dev.rosewood.rosestacker.utils.StackerUtils;
-import java.util.ArrayList;
-import java.util.List;
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SpawnerStackSettings extends StackSettings {
 

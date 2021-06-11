@@ -6,6 +6,9 @@ package dev.rosewood.rosestacker.stack;
  * They can't stack if any other result is specified.
  */
 public enum EntityStackComparisonResult {
+    SCREAMING,
+    PLAYING_DEAD,
+    DIFFERENT_VARIANT,
     CAN_STACK,
     DIFFERENT_ENTITY_TYPES,
     STACKING_NOT_ENABLED,

@@ -7,8 +7,8 @@ allprojects {
     apply plugin: 'com.github.johnrengelman.shadow'
     group = 'dev.rosewood'
     version = '1.2.6'
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
+    targetCompatibility = 16
+    sourceCompatibility = 16
 
     repositories {
         mavenCentral()
@@ -45,6 +45,7 @@ dependencies {
     implementation project(':NMS-v1_16_R1')
     implementation project(':NMS-v1_16_R2')
     implementation project(':NMS-v1_16_R3')
+    implementation project(':NMS-v1_17_R1')
 }
 
 shadowJar {

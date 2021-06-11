@@ -5,11 +5,12 @@ import dev.rosewood.rosestacker.manager.EntityCacheManager;
 import dev.rosewood.rosestacker.manager.LocaleManager;
 import dev.rosewood.rosestacker.stack.settings.SpawnerStackSettings;
 import dev.rosewood.rosestacker.stack.settings.spawner.ConditionTag;
-import java.util.Collections;
-import java.util.List;
 import org.bukkit.block.Block;
 import org.bukkit.block.CreatureSpawner;
 import org.bukkit.entity.EntityType;
+
+import java.util.Collections;
+import java.util.List;
 
 public class MaxNearbyEntityConditionTag extends ConditionTag {
 

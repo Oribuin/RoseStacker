@@ -1,7 +1,8 @@
 package dev.rosewood.rosestacker.nms.object;
 
-import java.util.List;
 import org.bukkit.entity.EntityType;
+
+import java.util.List;
 
 /**
  * Used to bypass the costly BlockState snapshot system that Bukkit uses

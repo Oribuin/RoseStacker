@@ -2,16 +2,13 @@ package dev.rosewood.rosestacker.manager;
 
 import dev.rosewood.rosegarden.RosePlugin;
 import dev.rosewood.rosegarden.manager.Manager;
-import dev.rosewood.rosestacker.hologram.CMIHologramHandler;
-import dev.rosewood.rosestacker.hologram.HologramHandler;
-import dev.rosewood.rosestacker.hologram.HologramsHologramHandler;
-import dev.rosewood.rosestacker.hologram.HolographicDisplaysHologramHandler;
-import dev.rosewood.rosestacker.hologram.TrHologramHandler;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import dev.rosewood.rosestacker.hologram.*;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class HologramManager extends Manager {
 

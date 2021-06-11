@@ -1,8 +1,9 @@
 package dev.rosewood.rosestacker.gui;
 
+import org.bukkit.Material;
+
 import java.util.Collections;
 import java.util.List;
-import org.bukkit.Material;
 
 /* package */ class GuiHelper {
 

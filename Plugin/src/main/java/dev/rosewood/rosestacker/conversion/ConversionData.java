@@ -1,9 +1,10 @@
 package dev.rosewood.rosestacker.conversion;
 
-import java.util.UUID;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.LivingEntity;
+
+import java.util.UUID;
 
 public class ConversionData {
 

@@ -1,9 +1,10 @@
 package dev.rosewood.rosestacker.event;
 
 import dev.rosewood.rosestacker.stack.StackedEntity;
-import java.util.List;
 import org.bukkit.event.HandlerList;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
 
 /**
  * Called when the size of a StackedEntity increases

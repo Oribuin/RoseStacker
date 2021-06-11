@@ -5,10 +5,11 @@ import dev.rosewood.rosegarden.config.CommentedFileConfiguration;
 import dev.rosewood.rosegarden.config.RoseSetting;
 import dev.rosewood.rosegarden.manager.AbstractConfigurationManager;
 import dev.rosewood.rosestacker.RoseStacker;
-import java.util.Arrays;
-import java.util.Collections;
 import org.bukkit.Material;
 import org.bukkit.event.entity.EntityDamageEvent;
+
+import java.util.Arrays;
+import java.util.Collections;
 
 public class ConfigurationManager extends AbstractConfigurationManager {
 

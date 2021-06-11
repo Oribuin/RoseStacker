@@ -1,13 +1,6 @@
 package dev.rosewood.rosestacker.nms.v1_15_R1.entity;
 
-import net.minecraft.server.v1_15_R1.DifficultyDamageScaler;
-import net.minecraft.server.v1_15_R1.EntitySpider;
-import net.minecraft.server.v1_15_R1.EntityTypes;
-import net.minecraft.server.v1_15_R1.EnumMobSpawn;
-import net.minecraft.server.v1_15_R1.GeneratorAccess;
-import net.minecraft.server.v1_15_R1.GroupDataEntity;
-import net.minecraft.server.v1_15_R1.NBTTagCompound;
-import net.minecraft.server.v1_15_R1.World;
+import net.minecraft.server.v1_15_R1.*;
 
 public class SoloEntitySpider extends EntitySpider {
 

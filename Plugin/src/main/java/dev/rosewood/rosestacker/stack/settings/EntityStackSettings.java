@@ -12,24 +12,15 @@ import dev.rosewood.rosestacker.stack.EntityStackComparisonResult;
 import dev.rosewood.rosestacker.stack.StackedEntity;
 import dev.rosewood.rosestacker.utils.PersistentDataUtils;
 import dev.rosewood.rosestacker.utils.StackerUtils;
+import org.bukkit.Material;
+import org.bukkit.entity.*;
+import org.bukkit.inventory.Merchant;
+import org.bukkit.material.Colorable;
+
 import java.lang.reflect.Type;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
-import org.bukkit.Material;
-import org.bukkit.entity.AbstractHorse;
-import org.bukkit.entity.AnimalTamer;
-import org.bukkit.entity.Animals;
-import org.bukkit.entity.Boss;
-import org.bukkit.entity.ChestedHorse;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Mob;
-import org.bukkit.entity.Raider;
-import org.bukkit.entity.Sittable;
-import org.bukkit.entity.Tameable;
-import org.bukkit.inventory.Merchant;
-import org.bukkit.material.Colorable;
 
 public abstract class EntityStackSettings extends StackSettings {
 

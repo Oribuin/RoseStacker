@@ -6,10 +6,11 @@ import dev.rosewood.rosegarden.utils.NMSUtil;
 import dev.rosewood.rosestacker.stack.EntityStackComparisonResult;
 import dev.rosewood.rosestacker.stack.StackedEntity;
 import dev.rosewood.rosestacker.stack.settings.EntityStackSettings;
-import java.util.Arrays;
-import java.util.List;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Villager;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class VillagerStackSettings extends EntityStackSettings {
 

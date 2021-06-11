@@ -1,9 +1,10 @@
 package dev.rosewood.rosestacker.stack.settings;
 
 import dev.rosewood.rosestacker.utils.ItemUtils;
-import java.util.List;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+
+import java.util.List;
 
 /**
  * Contains data loaded from entity_data.json

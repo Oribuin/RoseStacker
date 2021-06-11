@@ -2,22 +2,8 @@ package dev.rosewood.rosestacker.stack.settings.spawner;
 
 import dev.rosewood.rosegarden.utils.StringPlaceholders;
 import dev.rosewood.rosestacker.manager.LocaleManager;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.AboveSeaLevelConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.AboveYAxisConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.AirConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.BelowSeaLevelConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.BelowYAxisConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.BiomeConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.BlockConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.BlockExceptionConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.DarknessConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.FluidConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.LightnessConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.MaxNearbyEntityConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.NoSkylightAccessConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.NoneConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.OnGroundConditionTag;
-import dev.rosewood.rosestacker.stack.settings.spawner.tags.SkylightAccessConditionTag;
+import dev.rosewood.rosestacker.stack.settings.spawner.tags.*;
+
 import java.lang.reflect.Constructor;
 import java.util.Collections;
 import java.util.HashMap;

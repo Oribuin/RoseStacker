@@ -1,6 +1,8 @@
 package dev.rosewood.rosestacker.utils;
 
 import dev.rosewood.rosestacker.stack.StackedEntity;
+import org.bukkit.entity.LivingEntity;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
@@ -8,7 +10,6 @@ import java.io.ObjectOutputStream;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-import org.bukkit.entity.LivingEntity;
 
 public final class EntitySerializer {
 

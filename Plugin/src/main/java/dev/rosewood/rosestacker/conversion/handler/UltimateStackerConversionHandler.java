@@ -5,10 +5,11 @@ import dev.rosewood.rosestacker.conversion.ConversionData;
 import dev.rosewood.rosestacker.stack.Stack;
 import dev.rosewood.rosestacker.stack.StackType;
 import dev.rosewood.rosestacker.stack.StackedItem;
-import java.util.HashSet;
-import java.util.Set;
 import org.bukkit.entity.Item;
 import org.bukkit.inventory.ItemStack;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class UltimateStackerConversionHandler extends ConversionHandler {
 

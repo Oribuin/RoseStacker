@@ -4,11 +4,12 @@ import dev.rosewood.rosestacker.manager.LocaleManager;
 import dev.rosewood.rosestacker.stack.settings.SpawnerStackSettings;
 import dev.rosewood.rosestacker.stack.settings.spawner.ConditionTag;
 import dev.rosewood.rosestacker.utils.EntityUtils;
-import java.util.Collections;
-import java.util.List;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.CreatureSpawner;
+
+import java.util.Collections;
+import java.util.List;
 
 public class FluidConditionTag extends ConditionTag {
 
